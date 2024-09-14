@@ -1,3 +1,81 @@
+
+# 📚 Tareas Laravel
+
+Este es un proyecto de una lista de tareas creada con el framework Laravel. El propósito de este proyecto es implementar una aplicación simple que permita a los usuarios crear, leer, actualizar y eliminar tareas.
+
+## Características
+
+- **CRUD de Tareas:** Crear, leer, actualizar y eliminar tareas.
+- **Gestión de Categorías:** Cada tarea puede estar asociada a una categoría.
+- **Validaciones de Formulario:** Los formularios están validados para asegurar que los campos obligatorios estén completos.
+- **Interfaz de Usuario Intuitiva:** Una interfaz de usuario simple y limpia para gestionar las tareas.
+
+## Requisitos
+
+- PHP 8.0+
+- Composer
+- Laravel 9.x
+- MySQL o cualquier base de datos compatible con Laravel
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+
+    ```bash
+    git clone https://github.com/JuanSebastianMoralesVilla/tareas-laravel.git
+    ```
+
+2. Instala las dependencias con Composer:
+
+    ```bash
+    composer install
+    ```
+
+3. Copia el archivo `.env.example` a `.env` y configura tu base de datos:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+4. Genera una clave de aplicación de Laravel:
+
+    ```bash
+    php artisan key:generate
+    ```
+
+5. Ejecuta las migraciones de la base de datos:
+
+    ```bash
+    php artisan migrate
+    ```
+
+6. Inicia el servidor de desarrollo:
+
+    ```bash
+    php artisan serve
+    ```
+
+## Uso
+
+1. Accede a la aplicación en `http://localhost:8000`.
+2. Crea, edita y elimina tareas de manera intuitiva.
+3. Gestiona las categorías de las tareas para organizar mejor tu lista.
+
+## Captura de Pantalla
+
+![Lista de Tareas](./screenshot.png)
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una sugerencia de mejora, por favor abre un issue o envía un pull request.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -21,46 +99,3 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
