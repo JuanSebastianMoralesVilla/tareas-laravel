@@ -63,8 +63,7 @@ Este es un proyecto de una lista de tareas creada con el framework Laravel. El p
 
 ## Captura de Pantalla
 
-![Lista de Tareas](./screenshot.png)
-
+![Lista de Tareas](public/images/Captura readme.png)
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una sugerencia de mejora, por favor abre un issue o envía un pull request.
