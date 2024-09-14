@@ -9,6 +9,11 @@ Este es un proyecto de una lista de tareas creada con el framework Laravel. El p
 - **Gestión de Categorías:** Cada tarea puede estar asociada a una categoría.
 - **Validaciones de Formulario:** Los formularios están validados para asegurar que los campos obligatorios estén completos.
 - **Interfaz de Usuario Intuitiva:** Una interfaz de usuario simple y limpia para gestionar las tareas.
+- 
+## Lista de tareas 📋
+
+
+![Lista](https://github.com/JuanSebastianMoralesVilla/tareas-laravel/blob/main/public/Captura%20readme.png)
 
 ## Requisitos
 
@@ -61,9 +66,9 @@ Este es un proyecto de una lista de tareas creada con el framework Laravel. El p
 2. Crea, edita y elimina tareas de manera intuitiva.
 3. Gestiona las categorías de las tareas para organizar mejor tu lista.
 
-## Captura de Pantalla
 
-![Lista de Tareas](public/images/Captura readme.png)
+
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una sugerencia de mejora, por favor abre un issue o envía un pull request.
